@@ -21,8 +21,21 @@ struct ReservationFormView: View {
         }
         .padding()
     }
-    struct ReservationForm_Previews: PreviewProvider {
-        static var previews: some View {
-            ReservationForm()
+   struct ContentView: View {
+    var body: some View {
+        NavigationView {
+            VStack {
+                // Your existing content here
+                
+                ReservationForm()
+            }
+            .navigationTitle("Reservation Form")
         }
     }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
