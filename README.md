@@ -58,3 +58,4 @@ Configure the TextField element so that it detects when the user starts or ends 
 
 Tip: Remember that this modifier has a closure that receives a Boolean value representing the start and end of editing as it is happening.
 
+<img width="1307" alt="image" src="https://github.com/hebaomar94/Observing-a-TextField/assets/97067717/a6388e3c-38e9-42f2-9417-814244b8368d">
